@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" width="100%">
+</p>
 # 🚦 SmartRoute-AI
 
 ### Intelligent Multi-Route Optimization System using Machine Learning
