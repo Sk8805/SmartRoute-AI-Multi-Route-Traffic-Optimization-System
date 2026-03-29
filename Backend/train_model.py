@@ -11,7 +11,10 @@ import joblib
 # -----------------------------
 # 1. LOAD DATA
 # -----------------------------
-data = pd.read_csv("../data.csv")
+import os
+
+file_path = os.path.join(os.path.dirname(__file__), "../india_traffic_no_weather_best_route.csv")
+data = pd.read_csv(file_path)
 
 # Shuffle data
 data = data.sample(frac=1, random_state=42).reset_index(drop=True)
